@@ -1,0 +1,63 @@
+@using OnlineExamSystem.Web.ViewModels
+@model IEnumerable<StudentViewModel>
+@{
+	ViewData["Title"] = "Students";
+}
+
+<div class="bg-darksurface border border-darkborder rounded-xl overflow-hidden">
+	<div class="flex justify-between items-center p-6">
+		<div class="relative flex-1 max-w-md">
+			<input type="text"
+				   placeholder="Search students..."
+				   class="w-full bg-darkbg border border-darkborder rounded-lg py-2 px-4 pr-10 focus:outline-none focus:ring-2 focus:ring-darkprimary/50" />
+			<i class="fas fa-search absolute right-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+		</div>
+		<a asp-action="AddStudent" class="bg-darkprimary hover:bg-darkprimary/90 text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2">
+			<i class="fas fa-plus"></i> Add Student
+		</a>
+	</div>
+
+	<div class="overflow-x-auto">
+		<table class="w-full">
+			<thead>
+				<tr class="border-b border-darkborder">
+					<th class="py-3 px-4 text-left">ID</th>
+					<th class="py-3 px-4 text-left">Name</th>
+					<th class="py-3 px-4 text-left">Exams Taken</th>
+					<th class="py-3 px-4 text-left">Avg. Score</th>
+					<th class="py-3 px-4 text-left">Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var student in Model)
+				{
+					<tr class="border-b border-darkborder hover:bg-darkbg/50 transition-colors">
+
+						<td class="py-3 px-4">@student.StudentId</td>
+						<td class="py-3 px-4">
+							<div class="flex items-center gap-3">
+								<div class="w-8 h-8 bg-darkprimary rounded-full flex items-center justify-center text-white font-semibold">JD</div>
+								<span>@student.StudentName</span>
+							</div>
+						</td>
+						<td class="py-3 px-4">@student.CompletedExams</td>
+						<td class="py-3 px-4">
+							<span class="text-success">@(student.AverageScore * 100)%</span>
+						</td>
+						<td class="py-3 px-4">
+							<div class="flex gap-2">
+								<button class="text-darkprimary hover:text-darkprimary/80 transition-colors">
+									<i class="fas fa-edit"></i>
+								</button>
+								<button class="text-darkaccent hover:text-darkaccent/80 transition-colors">
+									<i class="fas fa-trash-alt"></i>
+								</button>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+</div>

@@ -1,0 +1,12 @@
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\bin\Debug\net9.0\OnlineExamSystem.Core.deps.json
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\bin\Debug\net9.0\OnlineExamSystem.Core.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\bin\Debug\net9.0\OnlineExamSystem.Core.pdb
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.csproj.AssemblyReference.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.AssemblyInfoInputs.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.AssemblyInfo.cs
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\refint\OnlineExamSystem.Core.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\OnlineExamSystem.Core.pdb
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Core\obj\Debug\net9.0\ref\OnlineExamSystem.Core.dll

@@ -1,0 +1,117 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+  <!-- Stats Card 1 -->
+  <div
+    class="bg-darksurface rounded-lg shadow-md p-6 border border-darkborder"
+  >
+    <div class="flex items-center justify-between">
+      <div>
+        <p class="text-gray-400 text-sm">Total Students</p>
+        <h3 class="text-3xl font-bold mt-1">1,248</h3>
+        <p class="text-success text-sm mt-2">
+          <i class="fas fa-arrow-up mr-1"></i> 12% increase
+        </p>
+      </div>
+      <div
+        class="w-12 h-12 bg-darkprimary/20 rounded-full flex items-center justify-center text-darkprimary"
+      >
+        <i class="fas fa-user-graduate text-xl"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Card 2 -->
+  <div
+    class="bg-darksurface rounded-lg shadow-md p-6 border border-darkborder"
+  >
+    <div class="flex items-center justify-between">
+      <div>
+        <p class="text-gray-400 text-sm">Active Exams</p>
+        <h3 class="text-3xl font-bold mt-1">42</h3>
+        <p class="text-success text-sm mt-2">
+          <i class="fas fa-arrow-up mr-1"></i> 8% increase
+        </p>
+      </div>
+      <div
+        class="w-12 h-12 bg-darksecondary/20 rounded-full flex items-center justify-center text-darksecondary"
+      >
+        <i class="fas fa-file-alt text-xl"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Card 3 -->
+  <div
+    class="bg-darksurface rounded-lg shadow-md p-6 border border-darkborder"
+  >
+    <div class="flex items-center justify-between">
+      <div>
+        <p class="text-gray-400 text-sm">Completed Exams</p>
+        <h3 class="text-3xl font-bold mt-1">856</h3>
+        <p class="text-success text-sm mt-2">
+          <i class="fas fa-arrow-up mr-1"></i> 24% increase
+        </p>
+      </div>
+      <div
+        class="w-12 h-12 bg-darkaccent/20 rounded-full flex items-center justify-center text-darkaccent"
+      >
+        <i class="fas fa-check-circle text-xl"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Card 4 -->
+  <div
+    class="bg-darksurface rounded-lg shadow-md p-6 border border-darkborder"
+  >
+    <div class="flex items-center justify-between">
+      <div>
+        <p class="text-gray-400 text-sm">Average Score</p>
+        <h3 class="text-3xl font-bold mt-1">76%</h3>
+        <p class="text-danger text-sm mt-2">
+          <i class="fas fa-arrow-down mr-1"></i> 3% decrease
+        </p>
+      </div>
+      <div
+        class="w-12 h-12 bg-warning/20 rounded-full flex items-center justify-center text-warning"
+      >
+        <i class="fas fa-chart-line text-xl"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-darksurface rounded-lg shadow-md border border-darkborder mb-8">
+    <div class="p-6 border-b border-darkborder">
+        <h3 class="text-lg font-semibold">Top 5 Students by Average Score</h3>
+    </div>
+    <div class="p-6">
+        <div class="overflow-x-auto">
+            <table class="w-full">
+                <thead>
+                    <tr class="text-left border-b border-darkborder">
+                        <th class="pb-3 font-semibold">Rank</th>
+                        <th class="pb-3 font-semibold">Student ID</th>
+                        <th class="pb-3 font-semibold">Name</th>
+                        <th class="pb-3 font-semibold text-right">Average Score</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-darkborder">
+                    @for (int i = 1; i <= 5; i++)
+                    {
+                        <tr class="hover:bg-darkborder/10 transition-colors">
+                            <td class="py-4">#@i</td>
+                            <td class="py-4">STU@(2024000 + i)</td>
+                            <td class="py-4">Student @i</td>
+                            <td class="py-4 text-right">@(100 - i * 2)%</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

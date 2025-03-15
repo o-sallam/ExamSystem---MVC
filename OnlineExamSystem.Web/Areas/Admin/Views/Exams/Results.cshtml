@@ -1,0 +1,53 @@
+@{
+var examId=1;
+    ViewData["Title"] = $"Results > EX: {examId}";
+}
+
+<div class="bg-darksurface border border-darkborder rounded-xl overflow-hidden">
+
+        <div class="overflow-x-auto">
+            <table class="w-full">
+                <thead>
+                    <tr class="border-b border-darkborder">
+                        <th class="py-3 px-4 text-left">ID</th>
+                        <th class="py-3 px-4 text-left">Name</th>
+                        <th class="py-3 px-4 text-left">Email</th>
+                        <th class="py-3 px-4 text-left">Class</th>
+                        <th class="py-3 px-4 text-left">Exams Taken</th>
+                        <th class="py-3 px-4 text-left">Avg. Score</th>
+                        <th class="py-3 px-4 text-left">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample data rows -->
+                    <tr class="border-b border-darkborder hover:bg-darkbg/50 transition-colors">
+                        <td class="py-3 px-4">ST001</td>
+                        <td class="py-3 px-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 bg-darkprimary rounded-full flex items-center justify-center text-white font-semibold">JD</div>
+                                <span>John Doe</span>
+                            </div>
+                        </td>
+                        <td class="py-3 px-4">john.doe@example.com</td>
+                        <td class="py-3 px-4">Class A</td>
+                        <td class="py-3 px-4">8</td>
+                        <td class="py-3 px-4">
+                            <span class="text-success">85%</span>
+                        </td>
+                        <td class="py-3 px-4">
+                            <div class="flex gap-2">
+                                <button class="text-darkprimary hover:text-darkprimary/80 transition-colors">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="text-darkaccent hover:text-darkaccent/80 transition-colors">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+</div>

@@ -1,0 +1,46 @@
+@using Microsoft.AspNetCore.Identity
+@using OnlineExamSystem.Core.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@inject RoleManager<IdentityRole> RoleManager
+
+<div class="flex items-center gap-4">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        var user = await UserManager.GetUserAsync(User);
+        var username = user?.Name ?? "User";
+        var initials = !string.IsNullOrEmpty(username) ? username.Substring(0, Math.Min(2, username.Length)).ToUpper() : "U";
+        var userRoles = await UserManager.GetRolesAsync(user);
+        var userRole = userRoles.FirstOrDefault() ?? "Student";
+
+        <div class="flex items-center gap-2 cursor-pointer group relative">
+            <div class="w-8 h-8 bg-darkprimary rounded-full flex items-center justify-center text-white font-semibold">
+                @initials
+            </div>
+            <span class="font-medium">@username</span>
+            <i class="fas fa-chevron-down text-xs"></i>
+            <div class="absolute right-0 top-full mt-2 w-48 bg-darksurface border border-darkborder rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-20">
+                <ul class="py-2">
+                    <li>
+                        <a href="#" class="block px-4 py-2 hover:bg-darkprimary/10 transition-colors">
+                            <i class="fas fa-user-shield mr-2"></i> @userRole
+                        </a>
+                    </li>
+                    <li class="border-t border-darkborder mt-2 pt-2">
+                        <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/Account/Login", new { area = "Identity" })" method="post">
+                            <button type="submit" class="w-full text-left px-4 py-2 text-darkaccent hover:bg-darkprimary/10 transition-colors">
+                                <i class="fas fa-sign-out-alt mr-2"></i> Logout
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    }
+    else
+    {
+        <a asp-area="Identity" asp-page="/Account/Login" class="text-darkprimary hover:text-darkaccent transition-colors">
+            <i class="fas fa-sign-in-alt mr-1"></i> Login
+        </a>
+    }
+</div>

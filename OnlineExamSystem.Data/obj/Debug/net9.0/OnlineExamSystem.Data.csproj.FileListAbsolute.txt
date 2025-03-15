@@ -1,0 +1,17 @@
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.csproj.AssemblyReference.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.AssemblyInfoInputs.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.AssemblyInfo.cs
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\bin\Debug\net9.0\OnlineExamSystem.Data.deps.json
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\bin\Debug\net9.0\OnlineExamSystem.Data.runtimeconfig.json
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\bin\Debug\net9.0\OnlineExamSystem.Data.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\bin\Debug\net9.0\OnlineExamSystem.Data.pdb
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\bin\Debug\net9.0\OnlineExamSystem.Core.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\bin\Debug\net9.0\OnlineExamSystem.Core.pdb
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineEx.81C2CABF.Up2Date
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\refint\OnlineExamSystem.Data.dll
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.pdb
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\OnlineExamSystem.Data.genruntimeconfig.cache
+C:\Users\MKE4DESIGN\source\repos\OnlineExamSystem\OnlineExamSystem.Data\obj\Debug\net9.0\ref\OnlineExamSystem.Data.dll

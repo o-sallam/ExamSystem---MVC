@@ -1,0 +1,144 @@
+<div class="max-w-3xl mx-auto">
+        <script id="quiz-data" type="application/json">
+            @Json.Serialize(Model)
+        </script>
+      <header class="flex justify-between items-center mb-8 flex-wrap gap-5">
+        <h1 class="main-title">Exam Questions</h1>
+        <div class="text-lg font-medium">
+          Question <span id="currentQuestion">1</span> of
+          <span id="totalQuestions">10</span>
+        </div>
+      </header>
+
+      <!-- Progress Bar -->
+      <div class="mb-6">
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-sm text-gray-600">Progress</span>
+          <span class="text-sm font-medium text-primary"
+            ><span id="answeredQuestions">0</span>/<span
+              id="totalQuestionsProgress"
+              >10</span
+            >
+            answered</span
+          >
+        </div>
+        <div class="h-2 w-full bg-gray-200 rounded-full">
+          <div
+            id="progressBar"
+            class="h-full bg-primary rounded-full transition-all duration-500"
+            style="width: 0%"
+          ></div>
+        </div>
+      </div>
+
+      <!-- Question Dots - Visual Indicator -->
+      <div class="flex justify-center flex-wrap gap-2 mb-6" id="question-dots">
+        <!-- Dots will be added dynamically -->
+      </div>
+
+      <div
+        id="quiz-container"
+        class="bg-white rounded-lg shadow-lg p-8 mb-8 animate-fade-in"
+      >
+        <div
+          id="question-container"
+          class="mb-8 bg-white rounded-lg shadow-md p-6 border-2 border-primary/20"
+        >
+          <h2
+            id="question-title"
+            class="text-2xl font-semibold text-center mb-2"
+          >
+            Question Title
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          <div
+            class="answer-option cursor-pointer bg-white rounded-lg shadow-md p-4 border-2 border-gray-200 hover:border-primary/50 transition-all duration-300"
+            data-answer="a"
+          >
+            <p class="text-center font-medium">Answer A</p>
+          </div>
+          <div
+            class="answer-option cursor-pointer bg-white rounded-lg shadow-md p-4 border-2 border-gray-200 hover:border-primary/50 transition-all duration-300"
+            data-answer="b"
+          >
+            <p class="text-center font-medium">Answer B</p>
+          </div>
+          <div
+            class="answer-option cursor-pointer bg-white rounded-lg shadow-md p-4 border-2 border-gray-200 hover:border-primary/50 transition-all duration-300"
+            data-answer="c"
+          >
+            <p class="text-center font-medium">Answer C</p>
+          </div>
+          <div
+            class="answer-option cursor-pointer bg-white rounded-lg shadow-md p-4 border-2 border-gray-200 hover:border-primary/50 transition-all duration-300"
+            data-answer="d"
+          >
+            <p class="text-center font-medium">Answer D</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between">
+          <button
+            id="prev-btn"
+            class="btn-primary py-3 px-8 rounded-full bg-primary text-white font-medium transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <i class="fas fa-arrow-left mr-2"></i> Previous
+          </button>
+          <button
+            id="next-btn"
+            class="btn-primary py-3 px-8 rounded-full bg-primary text-white font-medium transition-all duration-300"
+          >
+            Next <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="results-container"
+        class="hidden bg-white rounded-lg shadow-lg p-8 simple-fade"
+      >
+        <h2 class="text-2xl font-bold text-center mb-4">Exam Results</h2>
+        <div class="text-center mb-6">
+          <div class="relative w-48 h-48 mx-auto">
+            <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+              <circle
+                class="stroke-current text-gray-200"
+                stroke-width="8"
+                cx="50"
+                cy="50"
+                r="46"
+                fill="transparent"
+              ></circle>
+              <circle
+                id="percentage-circle"
+                class="stroke-current transition-all duration-1000 ease-in-out"
+                stroke-width="8"
+                stroke-linecap="round"
+                cx="50"
+                cy="50"
+                r="46"
+                fill="transparent"
+                stroke-dasharray="289.027"
+                stroke-dashoffset="289.027"
+              ></circle>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center gap-1">
+              <span id="percentage" class="text-5xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">0</span>
+              <span class="text-3xl font-medium text-gray-600">%</span>
+            </div>
+          </div>
+          <p id="result-message" class="text-2xl font-medium mt-4 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent"></p>
+        </div>
+      </div>
+
+      <div class="mt-4 text-center">
+        <a           asp-area=""
+          asp-controller="Exams"
+          asp-action="Index" class="text-primary hover:underline">
+          <i class="fas fa-arrow-left mr-1"></i> Back to Exam Dashboard
+        </a>
+      </div>
+    </div>
+    <script type="module" src="/js/public/questions/quiz.js"></script>

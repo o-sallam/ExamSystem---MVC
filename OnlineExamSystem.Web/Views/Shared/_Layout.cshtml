@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - ExamSystem</title>
+        <link rel="stylesheet" href="~/css/fonts/fontawesome.css"
+            asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/fonts/poppins-font.css"
+            asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/styles/tailwind.css"
+            asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+    </head>
+    <body
+        class="bg-gradient-to-br from-gray-100 to-blue-100 min-h-screen p-5 text-gray-800">
+        <div class="max-w-7xl mx-auto">
+
+        @RenderBody()
+        </div>
+
+        <footer class="text-center py-5 text-gray-600 text-sm">
+            <p>&copy; 2025 ExamSystem. Craeted By OmarSallam - All rights
+                reserved.</p>
+        </footer>
+
+    @RenderSection("Scripts", required: false)
+    </body>
+</html>

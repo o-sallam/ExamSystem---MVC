@@ -1,0 +1,88 @@
+<!-- Sidebar -->
+<aside
+  class="w-64 bg-darksurface border-r border-darkborder h-screen fixed left-0 top-0"
+  id="sidebar"
+>
+  <div class="p-5 border-b border-darkborder">
+    <h1
+      class="text-2xl font-bold bg-gradient-to-r from-darkprimary to-darkaccent bg-clip-text text-transparent"
+    >
+      ExamSystem CP
+    </h1>
+  </div>
+  <nav class="p-4">
+    <p class="text-xs uppercase text-gray-500 font-semibold mb-4 mt-2">
+      Main Menu
+    </p>
+    <ul class="space-y-2">
+      <li>
+        <a
+          asp-area="Admin"
+          asp-controller="Home"
+          asp-action="Index"
+          id="Dashboard"
+          class="flex items-center gap-3 p-3 rounded-lg hover:bg-darkprimary/10 transition-all"
+        >
+          <i class="fas fa-tachometer-alt w-5 text-center"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a
+          asp-area="Admin"
+          asp-controller="Students"
+          asp-action="Index"
+          id="Students"
+          class="flex items-center gap-3 p-3 rounded-lg hover:bg-darkprimary/10 transition-all"
+        >
+          <i class="fas fa-user-graduate w-5 text-center"></i>
+          <span>Students</span>
+        </a>
+      </li>
+
+      <li>
+        <a
+          asp-area="Admin"
+          asp-controller="Exams"
+          asp-action="Index"
+          id="Exams"
+          class="flex items-center gap-3 p-3 rounded-lg hover:bg-darkprimary/10 transition-all"
+        >
+          <i class="fas fa-file-alt w-5 text-center"></i>
+          <span>Exams</span>
+        </a>
+      </li>
+
+      <li>
+        <a
+          asp-area=""
+          asp-controller="Exams"
+          asp-action="Index"
+          id="Website"
+          class="flex items-center gap-3 p-3 rounded-lg hover:bg-darkprimary/10 transition-all"
+        >
+          <i class="fas fa-globe w-5 text-center"></i>
+          <span>Website</span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="text-xs uppercase text-gray-500 font-semibold mb-4 mt-8">
+      Management
+    </p>
+    <ul class="space-y-2">
+      <li>
+        <a
+          asp-area="Admin"
+          asp-controller="Users"
+          asp-action="Index"
+          id="UserManagement"
+          class="flex items-center gap-3 p-3 rounded-lg hover:bg-darkprimary/10 transition-all"
+        >
+          <i class="fas fa-users w-5 text-center"></i>
+          <span>User Management</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</aside>

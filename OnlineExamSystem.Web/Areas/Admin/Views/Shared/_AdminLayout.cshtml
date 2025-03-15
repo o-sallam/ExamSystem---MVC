@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ExamSystem</title>
+    <link rel="stylesheet" href="~/css/fonts/fontawesome.css"
+          asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/fonts/poppins-font.css"
+          asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles/tailwind.css"
+          asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles/scrollbar.css"
+          asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+  </head>
+  <body class="bg-darkbg text-darktext min-h-screen flex font-[Poppins]">
+    <!-- Include Sidebar Partial -->
+    <partial name="_Sidebar" />
+
+    <!-- Main Content -->
+    <div class="ml-64 flex-1 flex flex-col">
+      <!-- Top Bar -->
+      <header
+        class="bg-darksurface border-b border-darkborder p-4 flex justify-between items-center sticky top-0 z-10"
+      >
+        <div class="flex items-center">
+          <h2 class="text-xl font-semibold">@ViewData["Title"]</h2>
+        </div>
+
+        <partial name="_AuthPartial" />
+      </header>
+
+      <!-- Main Content Area -->
+      <main class="flex-1 p-6">
+        @RenderBody()
+      </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/js/sidebarActiveState.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+  </body>
+</html>

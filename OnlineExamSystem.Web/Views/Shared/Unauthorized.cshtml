@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Unauthorized";
+}
+
+<div class="max-w-7xl mx-auto text-center">
+    <h1 class="main-title mb-8">Unauthorized</h1>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden animate-fade-in max-w-md mx-auto">
+        <!-- Header with gradient background -->
+        <div class="gradient-bg-1 text-white p-4 relative">
+            <h2 class="text-2xl font-bold">Access Denied</h2>
+
+            <!-- Warning icon in top right -->
+            <div class="absolute top-4 right-4">
+                <i class="fas fa-exclamation-triangle text-white text-xl"></i>
+            </div>
+        </div>
+
+        <!-- Card content -->
+        <div class="p-8 flex flex-col items-center">
+            <div class="text-danger text-6xl mb-4">
+                <i class="fas fa-lock"></i>
+            </div>
+
+            <p class="text-gray-600 mb-6 text-center">
+                You don't have permission to access this page. Please log in with
+                appropriate credentials.
+            </p>
+
+            <a asp-controller="Exams" asp-action="Index" class="block w-full">
+                <button class="w-full py-3 px-6 rounded-full bg-primary text-white font-medium shadow-md hover:-translate-y-1 transition-all duration-300">
+                    Back to Exams
+                </button>
+            </a>
+        </div>
+    </div>
+</div>

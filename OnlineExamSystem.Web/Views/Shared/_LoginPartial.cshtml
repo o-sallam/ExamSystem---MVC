@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    var currentPath = Context.Request.Path.Value;
+    bool isAdminArea = currentPath.StartsWith("/Admin",
+    StringComparison.OrdinalIgnoreCase);
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="relative w-full md:w-72">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search exams..."
+            class="w-full py-3 px-5 pr-10 rounded-full border-none bg-white shadow-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/30" />
+        <i
+            class="fas fa-search absolute right-4 top-1/2 -translate-y-1/2 text-primary"></i>
+    </div>
+
+    <div
+        class="flex items-center gap-2 bg-white py-2 px-4 rounded-full shadow-md relative overflow-hidden group cursor-pointer">
+        <i class="fas fa-user-circle text-primary text-xl"></i>
+        <span
+            class="font-medium transition-all duration-300 ease-in-out group-hover:-translate-y-full text-black group-hover:text-white">
+            @User.Identity.Name
+        </span>
+        <span
+            class="font-medium absolute left-11 transition-all duration-300 ease-in-out translate-y-full group-hover:translate-y-0 text-white group-hover:text-black">
+            Logout
+        </span>
+    </div>
+}
+else
+{
+
+    <li class="nav-item">
+        <a class="nav-link @(isAdminArea ? "admin-link" : "public-link")"
+            id="login" asp-area="Identity" asp-page="/Account/Login">
+            Login
+        </a>
+    </li>
+}

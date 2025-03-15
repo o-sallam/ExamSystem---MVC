@@ -1,0 +1,45 @@
+﻿@page "/Admin/Account/Login"
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+
+    Layout = "_adminLoginLayout";
+}
+
+<div
+    class="bg-darksurface rounded-lg p-8 shadow-md border border-darkborder max-w-md mx-auto">
+    <form method="post">
+        <div asp-validation-summary="All" class="text-red-500 mb-4"></div>
+        <div class="mb-6">
+            <label asp-for="Input.UserName"
+                class="block mb-2 font-medium text-darktext">Name</label>
+            <input asp-for="Input.UserName"
+                class="w-full px-4 py-3 bg-darkbg border border-darkborder rounded-lg focus:outline-none focus:ring-2 focus:ring-darkprimary text-darktext"
+                placeholder="Enter your name" />
+            <span asp-validation-for="Input.UserName"
+                class="text-red-500 text-sm"></span>
+        </div>
+        <div class="mb-6">
+            <label asp-for="Input.Password"
+                class="block mb-2 font-medium text-darktext">Password</label>
+            <input asp-for="Input.Password"
+                type="password"
+                class="w-full px-4 py-3 bg-darkbg border border-darkborder rounded-lg focus:outline-none focus:ring-2 focus:ring-darkprimary text-darktext"
+                placeholder="Enter your password" />
+            <span asp-validation-for="Input.Password"
+                class="text-red-500 text-sm"></span>
+        </div>
+
+        <div class="text-center">
+            <button
+                type="submit"
+                class="w-full bg-darkprimary hover:bg-opacity-90 text-white font-medium py-3 px-8 rounded-lg transition duration-200">
+                Login
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
