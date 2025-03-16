@@ -188,7 +188,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 const optionText = optionEl.querySelector('.option-text').value.trim();
                 const isCorrect = optionEl.querySelector('.option-correct').checked;
                 
+                const optionId = optionEl.getAttribute('data-option-id') || 0;
                 options.push({
+                    id: optionId,
                     text: optionText,
                     isCorrect: isCorrect
                 });

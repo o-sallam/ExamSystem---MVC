@@ -195,14 +195,14 @@
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/src/tailwind-input.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles\src\tailwind-input.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7M4EqFXk8nSgFenS/F3lo0zqNhoA/jgr53/xjPYRxsg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1599"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227M4EqFXk8nSgFenS/F3lo0zqNhoA/jgr53/xjPYRxsg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 14:06:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FHBcr4g6cVoP5XaMOBrIe7lEr/2AtGU6OYZh5iS04E0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1633"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FHBcr4g6cVoP5XaMOBrIe7lEr/2AtGU6OYZh5iS04E0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 10:32:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/src/tailwind-input.w5w96svani.css">
+    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/src/tailwind-input.ghiqs5cgyb.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles\src\tailwind-input.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w5w96svani"},{"Name":"integrity","Value":"sha256-7M4EqFXk8nSgFenS/F3lo0zqNhoA/jgr53/xjPYRxsg="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/css/styles/src/tailwind-input.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1599"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227M4EqFXk8nSgFenS/F3lo0zqNhoA/jgr53/xjPYRxsg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 14:06:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ghiqs5cgyb"},{"Name":"integrity","Value":"sha256-FHBcr4g6cVoP5XaMOBrIe7lEr/2AtGU6OYZh5iS04E0="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/css/styles/src/tailwind-input.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1633"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FHBcr4g6cVoP5XaMOBrIe7lEr/2AtGU6OYZh5iS04E0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 10:32:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles\style.css'))</AssetFile>
@@ -219,14 +219,14 @@
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/tailwind.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles\tailwind.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xuboouhtxzWCsLTHRZTOtiffapveD0119iflhqC6R5Q="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"38569"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xuboouhtxzWCsLTHRZTOtiffapveD0119iflhqC6R5Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 00:10:47 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-93gZEp8U1hCBmRO0bnFtl2yEm5wqlgGwugbDGHfqrNw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"39899"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002293gZEp8U1hCBmRO0bnFtl2yEm5wqlgGwugbDGHfqrNw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 10:32:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/tailwind.yeiclvamy6.css">
+    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/css/styles/tailwind.dn8xtwud6o.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles\tailwind.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yeiclvamy6"},{"Name":"integrity","Value":"sha256-xuboouhtxzWCsLTHRZTOtiffapveD0119iflhqC6R5Q="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/css/styles/tailwind.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38569"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xuboouhtxzWCsLTHRZTOtiffapveD0119iflhqC6R5Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 00:10:47 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dn8xtwud6o"},{"Name":"integrity","Value":"sha256-93gZEp8U1hCBmRO0bnFtl2yEm5wqlgGwugbDGHfqrNw="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/css/styles/tailwind.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"39899"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002293gZEp8U1hCBmRO0bnFtl2yEm5wqlgGwugbDGHfqrNw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 10:32:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/favicon.0k2wkqvq54.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -348,17 +348,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002Br3PjfoRE0zZSBPdS6\u002B16Yp7DJltGsYq7R2f50DJymQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14866"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002Br3PjfoRE0zZSBPdS6\u002B16Yp7DJltGsYq7R2f50DJymQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 23:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.cdh2xe7o4n.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cdh2xe7o4n"},{"Name":"integrity","Value":"sha256-cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10260"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 21:04:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10145"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 21:51:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.k580mtl966.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k580mtl966"},{"Name":"integrity","Value":"sha256-uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10145"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 21:51:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10260"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 21:04:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/questions/DomElementsManager.2636wjpg9f.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\questions\DomElementsManager.js'))</AssetFile>

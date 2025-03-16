@@ -85,7 +85,7 @@ namespace OnlineExamSystem.Areas.Admin.Controllers
         // POST: Admin/Exams/CreateWithQuestions
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateWithQuestions([FromBody] CreateExamDto model)
+        public async Task<IActionResult> CreateWithQuestions([FromBody] CreateExamDto examData)
         {
             if (!ModelState.IsValid)
             {
@@ -103,8 +103,8 @@ namespace OnlineExamSystem.Areas.Admin.Controllers
                 // Create the exam
                 var exam = new Exam
                 {
-                    Title = model.Title,
-                    Description = model.Description,
+                    Title = examData.Title,
+                    Description = examData.Description,
                     CreatedById = currentUser.Id,
                     CreatedAt = DateTime.UtcNow,
                     Questions = new List<Question>()
@@ -115,7 +115,7 @@ namespace OnlineExamSystem.Areas.Admin.Controllers
                 await _unitOfWork.CompleteAsync();
 
                 // Add questions and options
-                foreach (var questionDto in model.Questions)
+                foreach (var questionDto in examData.Questions)
                 {
                     var question = new Question
                     {
@@ -134,7 +134,8 @@ namespace OnlineExamSystem.Areas.Admin.Controllers
                         var option = new Option
                         {
                             Text = optionDto.Text,
-                            IsCorrect = optionDto.IsCorrect
+                            IsCorrect = optionDto.IsCorrect,
+                            QuestionId = question.Id
                         };
 
                         // Add the option
@@ -203,7 +204,7 @@ namespace OnlineExamSystem.Areas.Admin.Controllers
         // POST: Admin/Exams/UpdateWithQuestions
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> UpdateWithQuestions([FromBody] UpdateExamDto model)
+        public async Task<IActionResult> UpdateWithQuestions([FromBody] UpdateExamDto examData)
         {
             if (!ModelState.IsValid)
             {
@@ -212,22 +213,102 @@ namespace OnlineExamSystem.Areas.Admin.Controllers
 
             try
             {
-                var exam = await _unitOfWork.Exams.GetByIdAsync(model.Id);
+                var exam = await _unitOfWork.Exams.GetByIdAsync(examData.Id);
                 if (exam == null)
                 {
                     return NotFound(new { success = false, message = "Exam not found" });
                 }
 
                 // Update exam properties
-                exam.Title = model.Title;
-                exam.Description = model.Description;
+                exam.Title = examData.Title;
+                exam.Description = examData.Description;
 
                 // Update the exam
                 await _unitOfWork.Exams.UpdateAsync(exam);
                 await _unitOfWork.CompleteAsync();
 
+                // Get existing questions for this exam
+                var existingExam = await _unitOfWork.Exams.GetExamWithQuestionsAsync(examData.Id);
+                if (existingExam == null)
+                {
+                    return NotFound(new { success = false, message = "Exam not found with questions" });
+                }
+
                 // Process questions and options
-                // Implementation depends on your data model and requirements
+                foreach (var questionDto in examData.Questions)
+                {
+                    // If question has an ID, update it
+                    if (questionDto.Id > 0)
+                    {
+                        var existingQuestion = existingExam.Questions.FirstOrDefault(q => q.Id == questionDto.Id);
+                        if (existingQuestion != null)
+                        {
+                            // Update question properties
+                            existingQuestion.Title = questionDto.Title;
+                            await _unitOfWork.Questions.UpdateAsync(existingQuestion);
+                            await _unitOfWork.CompleteAsync();
+
+                            // Process options for this question
+                            foreach (var optionDto in questionDto.Options)
+                            {
+                                // If option has an ID, update it
+                                if (optionDto.Id > 0)
+                                {
+                                    var existingOption = existingQuestion.Options.FirstOrDefault(o => o.Id == optionDto.Id);
+                                    if (existingOption != null)
+                                    {
+                                        // Update option properties
+                                        existingOption.Text = optionDto.Text;
+                                        existingOption.IsCorrect = optionDto.IsCorrect;
+                                        await _unitOfWork.Options.UpdateAsync(existingOption);
+                                    }
+                                }
+                                else
+                                {
+                                    // Create new option
+                                    var newOption = new Option
+                                    {
+                                        Text = optionDto.Text,
+                                        IsCorrect = optionDto.IsCorrect,
+                                        QuestionId = existingQuestion.Id
+                                    };
+                                    await _unitOfWork.Options.AddAsync(newOption);
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // Create new question
+                        var newQuestion = new Question
+                        {
+                            Title = questionDto.Title,
+                            ExamId = exam.Id,
+                            Options = new List<Option>()
+                        };
+
+                        // Add the question
+                        await _unitOfWork.Questions.AddAsync(newQuestion);
+                        await _unitOfWork.CompleteAsync();
+
+                        // Add options for this question
+                        foreach (var optionDto in questionDto.Options)
+                        {
+                            var newOption = new Option
+                            {
+                                Text = optionDto.Text,
+                                IsCorrect = optionDto.IsCorrect,
+                                QuestionId = newQuestion.Id
+                            };
+
+                            // Add the option
+                            await _unitOfWork.Options.AddAsync(newOption);
+                        }
+                    }
+                }
+
+                // Save all changes
+                await _unitOfWork.CompleteAsync();
 
                 return Json(new { success = true });
             }

@@ -17,6 +17,8 @@ namespace OnlineExamSystem.Web.DTOs
 
     public class QuestionDto
     {
+        public int Id { get; set; }
+
         [Required]
         [StringLength(200, ErrorMessage = "Question title cannot be longer than 200 characters")]
         public string Title { get; set; } = string.Empty;
@@ -26,6 +28,8 @@ namespace OnlineExamSystem.Web.DTOs
 
     public class OptionDto
     {
+        public int Id { get; set; }
+
         [Required]
         [StringLength(200, ErrorMessage = "Option text cannot be longer than 200 characters")]
         public string Text { get; set; } = string.Empty;

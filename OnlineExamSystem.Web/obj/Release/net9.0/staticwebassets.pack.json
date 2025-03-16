@@ -1,231 +1,231 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\fonts\\Poppins\\Poppins-Bold.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\fonts\\Poppins\\Poppins-Bold.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Poppins\\Poppins-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\fonts\\Poppins\\Poppins-Regular.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\fonts\\Poppins\\Poppins-Regular.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Poppins\\Poppins-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\fonts\\Poppins\\Poppins-SemiBold.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\fonts\\Poppins\\Poppins-SemiBold.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Poppins\\Poppins-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\all.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\all.css",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\all.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\assets\\icons\\fontawesome-free-6.7.2-web\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\fonts\\fontawesome.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\fonts\\fontawesome.css",
       "PackagePath": "staticwebassets\\css\\fonts\\fontawesome.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\fonts\\poppins-font.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\fonts\\poppins-font.css",
       "PackagePath": "staticwebassets\\css\\fonts\\poppins-font.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\styles\\admin-style.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\styles\\admin-style.css",
       "PackagePath": "staticwebassets\\css\\styles\\admin-style.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\styles\\scrollbar.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\styles\\scrollbar.css",
       "PackagePath": "staticwebassets\\css\\styles\\scrollbar.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\styles\\src\\tailwind-input.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\styles\\src\\tailwind-input.css",
       "PackagePath": "staticwebassets\\css\\styles\\src\\tailwind-input.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\styles\\style.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\styles\\style.css",
       "PackagePath": "staticwebassets\\css\\styles\\style.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\css\\styles\\tailwind.css",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\css\\styles\\tailwind.css",
       "PackagePath": "staticwebassets\\css\\styles\\tailwind.css"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\modals\\baseModal.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\modals\\baseModal.js",
       "PackagePath": "staticwebassets\\js\\admin\\modals\\baseModal.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\modals\\confirmModal.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\modals\\confirmModal.js",
       "PackagePath": "staticwebassets\\js\\admin\\modals\\confirmModal.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\modals\\formModal.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\modals\\formModal.js",
       "PackagePath": "staticwebassets\\js\\admin\\modals\\formModal.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\modals\\infoModal.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\modals\\infoModal.js",
       "PackagePath": "staticwebassets\\js\\admin\\modals\\infoModal.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\modals\\modalFactory.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\modals\\modalFactory.js",
       "PackagePath": "staticwebassets\\js\\admin\\modals\\modalFactory.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\site.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\site.js",
       "PackagePath": "staticwebassets\\js\\admin\\site.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\admin\\userManagement.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\admin\\userManagement.js",
       "PackagePath": "staticwebassets\\js\\admin\\userManagement.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\examDataManager.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\examDataManager.js",
       "PackagePath": "staticwebassets\\js\\examDataManager.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\examCreation\\examEdit.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\examCreation\\examEdit.js",
       "PackagePath": "staticwebassets\\js\\public\\examCreation\\examEdit.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\examCreation\\examQuestions.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\examCreation\\examQuestions.js",
       "PackagePath": "staticwebassets\\js\\public\\examCreation\\examQuestions.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\DomElementsManager.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\DomElementsManager.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\DomElementsManager.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\NavigationManager.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\NavigationManager.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\NavigationManager.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\ProgressManager.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\ProgressManager.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\ProgressManager.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\QuizStateManager.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\QuizStateManager.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\QuizStateManager.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\ResultsManager.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\ResultsManager.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\ResultsManager.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\examSubmission.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\examSubmission.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\examSubmission.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\questions\\quiz.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\questions\\quiz.js",
       "PackagePath": "staticwebassets\\js\\public\\questions\\quiz.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\site.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\site.js",
       "PackagePath": "staticwebassets\\js\\public\\site.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\tableUtils\\tableFilter.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\tableUtils\\tableFilter.js",
       "PackagePath": "staticwebassets\\js\\public\\tableUtils\\tableFilter.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\public\\tableUtils\\tableSearch.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\public\\tableUtils\\tableSearch.js",
       "PackagePath": "staticwebassets\\js\\public\\tableUtils\\tableSearch.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\sidebarActiveState.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\sidebarActiveState.js",
       "PackagePath": "staticwebassets\\js\\sidebarActiveState.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\js\\utils\\utils.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\js\\utils\\utils.js",
       "PackagePath": "staticwebassets\\js\\utils\\utils.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "C:\\Users\\MKE4DESIGN\\source\\repos\\OnlineExamSystem\\OnlineExamSystem.web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
