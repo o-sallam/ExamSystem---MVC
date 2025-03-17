@@ -20302,7 +20302,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20357,7 +20357,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20398,7 +20398,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20439,7 +20439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20484,7 +20484,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20539,7 +20539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20602,7 +20602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20651,7 +20651,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -20700,7 +20700,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -20753,7 +20753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 22:01:45 GMT"
+          "Value": "Sun, 16 Mar 2025 22:15:42 GMT"
         },
         {
           "Name": "Vary",
@@ -24888,13 +24888,290 @@
       ]
     },
     {
+      "Route": "js/public/examCreation/examQuestions.cdh2xe7o4n.js",
+      "AssetFile": "js/public/examCreation/examQuestions.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000444247001"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gk0eiTt5VzGcAXpGXy7u8bLwpQVpGZa+MVwTBAOijWo=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdh2xe7o4n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/public/examCreation/examQuestions.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/public/examCreation/examQuestions.cdh2xe7o4n.js",
+      "AssetFile": "js/public/examCreation/examQuestions.js.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000537056928"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0WnObAhwHjPxMiXqBCH9g1z7/0NWEQoTPhQB65Wukk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdh2xe7o4n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/public/examCreation/examQuestions.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/public/examCreation/examQuestions.cdh2xe7o4n.js",
+      "AssetFile": "js/public/examCreation/examQuestions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdh2xe7o4n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/public/examCreation/examQuestions.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/public/examCreation/examQuestions.cdh2xe7o4n.js.br",
+      "AssetFile": "js/public/examCreation/examQuestions.js.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0WnObAhwHjPxMiXqBCH9g1z7/0NWEQoTPhQB65Wukk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdh2xe7o4n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0WnObAhwHjPxMiXqBCH9g1z7/0NWEQoTPhQB65Wukk="
+        },
+        {
+          "Name": "label",
+          "Value": "js/public/examCreation/examQuestions.js.br"
+        }
+      ]
+    },
+    {
+      "Route": "js/public/examCreation/examQuestions.cdh2xe7o4n.js.gz",
+      "AssetFile": "js/public/examCreation/examQuestions.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gk0eiTt5VzGcAXpGXy7u8bLwpQVpGZa+MVwTBAOijWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdh2xe7o4n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gk0eiTt5VzGcAXpGXy7u8bLwpQVpGZa+MVwTBAOijWo="
+        },
+        {
+          "Name": "label",
+          "Value": "js/public/examCreation/examQuestions.js.gz"
+        }
+      ]
+    },
+    {
       "Route": "js/public/examCreation/examQuestions.js",
       "AssetFile": "js/public/examCreation/examQuestions.js.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000451467269"
+          "Quality": "0.000444247001"
         }
       ],
       "ResponseHeaders": [
@@ -24912,7 +25189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2214"
+          "Value": "2250"
         },
         {
           "Name": "Content-Type",
@@ -24920,15 +25197,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EyJKvUS8xYNEJ/+5xq2DcutuVOtvFbaBpA7z87wSAj0=\""
+          "Value": "\"Gk0eiTt5VzGcAXpGXy7u8bLwpQVpGZa+MVwTBAOijWo=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=\""
+          "Value": "W/\"cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
         },
         {
           "Name": "Vary",
@@ -24938,7 +25215,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg="
+          "Value": "sha256-cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8="
         }
       ]
     },
@@ -24949,7 +25226,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000545553737"
+          "Quality": "0.000537056928"
         }
       ],
       "ResponseHeaders": [
@@ -24967,7 +25244,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1832"
+          "Value": "1861"
         },
         {
           "Name": "Content-Type",
@@ -24975,15 +25252,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"48/NGl8wxDF5y11IuHILgr2r+MkeffqRGDZM8tSmVLA=\""
+          "Value": "\"v0WnObAhwHjPxMiXqBCH9g1z7/0NWEQoTPhQB65Wukk=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=\""
+          "Value": "W/\"cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
         },
         {
           "Name": "Vary",
@@ -24993,7 +25270,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg="
+          "Value": "sha256-cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8="
         }
       ]
     },
@@ -25012,7 +25289,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10145"
+          "Value": "10260"
         },
         {
           "Name": "Content-Type",
@@ -25020,17 +25297,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=\""
+          "Value": "\"cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg="
+          "Value": "sha256-cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8="
         }
       ]
     },
@@ -25053,7 +25330,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1832"
+          "Value": "1861"
         },
         {
           "Name": "Content-Type",
@@ -25061,11 +25338,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"48/NGl8wxDF5y11IuHILgr2r+MkeffqRGDZM8tSmVLA=\""
+          "Value": "\"v0WnObAhwHjPxMiXqBCH9g1z7/0NWEQoTPhQB65Wukk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
         },
         {
           "Name": "Vary",
@@ -25075,7 +25352,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-48/NGl8wxDF5y11IuHILgr2r+MkeffqRGDZM8tSmVLA="
+          "Value": "sha256-v0WnObAhwHjPxMiXqBCH9g1z7/0NWEQoTPhQB65Wukk="
         }
       ]
     },
@@ -25098,7 +25375,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2214"
+          "Value": "2250"
         },
         {
           "Name": "Content-Type",
@@ -25106,11 +25383,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EyJKvUS8xYNEJ/+5xq2DcutuVOtvFbaBpA7z87wSAj0=\""
+          "Value": "\"Gk0eiTt5VzGcAXpGXy7u8bLwpQVpGZa+MVwTBAOijWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
+          "Value": "Sun, 16 Mar 2025 21:04:01 GMT"
         },
         {
           "Name": "Vary",
@@ -25120,284 +25397,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EyJKvUS8xYNEJ/+5xq2DcutuVOtvFbaBpA7z87wSAj0="
-        }
-      ]
-    },
-    {
-      "Route": "js/public/examCreation/examQuestions.k580mtl966.js",
-      "AssetFile": "js/public/examCreation/examQuestions.js.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000451467269"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2214"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EyJKvUS8xYNEJ/+5xq2DcutuVOtvFbaBpA7z87wSAj0=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k580mtl966"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg="
-        },
-        {
-          "Name": "label",
-          "Value": "js/public/examCreation/examQuestions.js"
-        }
-      ]
-    },
-    {
-      "Route": "js/public/examCreation/examQuestions.k580mtl966.js",
-      "AssetFile": "js/public/examCreation/examQuestions.js.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.000545553737"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1832"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"48/NGl8wxDF5y11IuHILgr2r+MkeffqRGDZM8tSmVLA=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k580mtl966"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg="
-        },
-        {
-          "Name": "label",
-          "Value": "js/public/examCreation/examQuestions.js"
-        }
-      ]
-    },
-    {
-      "Route": "js/public/examCreation/examQuestions.k580mtl966.js",
-      "AssetFile": "js/public/examCreation/examQuestions.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10145"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k580mtl966"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg="
-        },
-        {
-          "Name": "label",
-          "Value": "js/public/examCreation/examQuestions.js"
-        }
-      ]
-    },
-    {
-      "Route": "js/public/examCreation/examQuestions.k580mtl966.js.br",
-      "AssetFile": "js/public/examCreation/examQuestions.js.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1832"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"48/NGl8wxDF5y11IuHILgr2r+MkeffqRGDZM8tSmVLA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k580mtl966"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-48/NGl8wxDF5y11IuHILgr2r+MkeffqRGDZM8tSmVLA="
-        },
-        {
-          "Name": "label",
-          "Value": "js/public/examCreation/examQuestions.js.br"
-        }
-      ]
-    },
-    {
-      "Route": "js/public/examCreation/examQuestions.k580mtl966.js.gz",
-      "AssetFile": "js/public/examCreation/examQuestions.js.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2214"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EyJKvUS8xYNEJ/+5xq2DcutuVOtvFbaBpA7z87wSAj0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 21:51:18 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k580mtl966"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EyJKvUS8xYNEJ/+5xq2DcutuVOtvFbaBpA7z87wSAj0="
-        },
-        {
-          "Name": "label",
-          "Value": "js/public/examCreation/examQuestions.js.gz"
+          "Value": "sha256-Gk0eiTt5VzGcAXpGXy7u8bLwpQVpGZa+MVwTBAOijWo="
         }
       ]
     },

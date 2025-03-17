@@ -244,13 +244,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\modals\baseModal.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Mar 2025 22:01:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 22:15:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/admin/modals/baseModal.rbtopbi75w.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\modals\baseModal.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rbtopbi75w"},{"Name":"integrity","Value":"sha256-d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/js/admin/modals/baseModal.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Mar 2025 22:01:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 22:15:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/admin/modals/confirmModal.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\modals\confirmModal.js'))</AssetFile>

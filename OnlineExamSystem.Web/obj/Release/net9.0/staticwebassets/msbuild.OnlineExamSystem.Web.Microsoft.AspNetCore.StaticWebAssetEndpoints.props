@@ -244,13 +244,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\modals\baseModal.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Mar 2025 22:01:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 22:15:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/admin/modals/baseModal.rbtopbi75w.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\modals\baseModal.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rbtopbi75w"},{"Name":"integrity","Value":"sha256-d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/js/admin/modals/baseModal.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Mar 2025 22:01:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5623"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022d0//gAZFpwxWUNfRjhrOkbrnibu43AJeSnIHpBKrIvQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 22:15:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/admin/modals/confirmModal.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin\modals\confirmModal.js'))</AssetFile>
@@ -348,17 +348,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002Br3PjfoRE0zZSBPdS6\u002B16Yp7DJltGsYq7R2f50DJymQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14866"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002Br3PjfoRE0zZSBPdS6\u002B16Yp7DJltGsYq7R2f50DJymQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 23:22:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.cdh2xe7o4n.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cdh2xe7o4n"},{"Name":"integrity","Value":"sha256-cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10260"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 21:04:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10145"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 21:51:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.k580mtl966.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k580mtl966"},{"Name":"integrity","Value":"sha256-uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg="},{"Name":"label","Value":"_content/OnlineExamSystem.Web/js/public/examCreation/examQuestions.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10145"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022uNwsnUOzc\u002BLHkhJ6rUx9I9gQlcPRJzSG\u002BEcF9YFFjrg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 21:51:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10260"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cO2TjL3IFidvb\u002BA5BynoEPrZyzQC0ltWqBdJoi7ZlE8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 21:04:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineExamSystem.Web/js/public/questions/DomElementsManager.2636wjpg9f.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\questions\DomElementsManager.js'))</AssetFile>

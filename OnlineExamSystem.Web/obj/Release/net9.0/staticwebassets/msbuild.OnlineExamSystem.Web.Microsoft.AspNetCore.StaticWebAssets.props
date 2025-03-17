@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>k580mtl966</Fingerprint>
-      <Integrity>uNwsnUOzc+LHkhJ6rUx9I9gQlcPRJzSG+EcF9YFFjrg=</Integrity>
+      <Fingerprint>cdh2xe7o4n</Fingerprint>
+      <Integrity>cO2TjL3IFidvb+A5BynoEPrZyzQC0ltWqBdJoi7ZlE8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\public\examCreation\examQuestions.js'))</OriginalItemSpec>

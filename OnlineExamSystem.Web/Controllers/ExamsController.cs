@@ -53,9 +53,16 @@ namespace OnlineExamSystem.Controllers
         {
             var currentUserId=_userManager.GetUserId(User);
             var examAttempts= await _unitOfWork.ExamAttempts.GetAttemptsByExamIdAsync(id);
-            var isExamAttemptedByCurrentUser = examAttempts
-                .Where(at => at.UserId == currentUserId).Any();
-            if (isExamAttemptedByCurrentUser)
+
+
+            var userAttempts = examAttempts
+                .Where(at => at.UserId == currentUserId);
+
+            var isExamAttemptedByCurrentUser = userAttempts.Any();
+            
+            var itAttemptsWithZeroScore = userAttempts?.FirstOrDefault(at => at.ExamId== id)?.Score==0;
+
+            if (isExamAttemptedByCurrentUser && !itAttemptsWithZeroScore)
                 return RedirectToAction("Index");
 
             var questions = await _unitOfWork.Exams.GetQuestionsWithOptionsAsync(id);
